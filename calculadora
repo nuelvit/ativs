@@ -4,7 +4,7 @@ import abc
 from logging import raiseExceptions
 from unittest import TestCase,main
 
-
+#RA1902675
 #classes
 
 class Calculadora(object):
@@ -27,7 +27,6 @@ class OperacaoFabrica(object):
             return Potenciacao()
         elif (operador == 'resto'):
             return Resto()
-
 
         else:
             resultado = operacao.executar(valor1,valor2)
